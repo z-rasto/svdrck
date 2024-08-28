@@ -377,7 +377,7 @@ body, html {
     position: absolute;
     z-index: 21;
     top: 1650%;
-    left: 80%;
+    left: 75%;
     transform: translateX(-50%) scale(-0.2, 0.2) rotate(20deg);
     animation: wiggle-b 4s linear infinite;
 }
@@ -386,7 +386,7 @@ body, html {
     background-image: url("rsz_koh-samui-map.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    width: 400px;
+    width: 350px;
     height: 930px;
     position: absolute;
     z-index: 19;
@@ -414,7 +414,7 @@ body, html {
     position: absolute;
     top: 2200%;
     left: 50%;
-    transform: translateX(-50%) translateY(-50%) scale(0.8);
+    transform: translateX(-50%) translateY(-50%) scale(0.5);
     width: 480px;
     height: 480px;
     background: url('coconut.webp') no-repeat center center / contain;
@@ -493,35 +493,13 @@ body, html {
     -webkit-animation-delay:0s; /* Safari 和 Chrome */
 }
 
-/*span {*/
-/*    font-family: 'Calligraffitti', cursive;*/
-/*    font-weight: 700;*/
-/*    font-size: 7rem;*/
-/*    position: absolute;*/
-/*    z-index: 11;*/
-/*    text-shadow: -15px 5px 20px #ced0d3;*/
-/*    top: 50%;*/
-/*    left: 50%;*/
-/*    transform: translate(-50%,-50%);*/
-/*    letter-spacing: 0.02em;*/
-/*    text-align: center;*/
-/*    color: #F9f1cc;*/
-/*    text-shadow: 5px 5px 0px #FFB650,*/
-/*    10px 10px 0px #FFD662,*/
-/*    15px 15px 0px  #FF80BF,*/
-/*    20px 20px 0px #EF5097,*/
-/*    25px 25px 0px #6868AC,*/
-/*    30px 30px 0px #90B1E0;*/
-/*}*/
-
-
 .box{
     position: absolute;
     top: calc(50% - 125px);
     top: -webkit-calc(50% - 125px);
     left: calc(50% - 300px);
     left: -webkit-calc(50% - 300px);
-    -webkit-transform: scale(0.65) rotate(-5deg);
+    -webkit-transform: scale(0.6) rotate(-5deg);
 }
 .clip {
     width: 20px;
@@ -1018,7 +996,7 @@ a.button {
     text-decoration: none;
     color: #778294;
     position: absolute;
-    top: 2470%;
+    top: 2480%;
     left: 50%;
     transform: translateX(-50%);
     padding: 0.7em 1.7em;
